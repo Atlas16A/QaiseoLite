@@ -9,13 +9,6 @@ from NetworkGraph import LiveChart
 import subprocess
 import os
 
-#pyinstaller main.py -y --name "QaiseoLite" --add-binary="yagna.exe;." --add-binary="gftp.exe;." --add-binary="jq.exe;." --windowed
-
-import inspect
-
-print(inspect.getmodule(QChart))
-
-
 class QaiseoApp(QtWidgets.QMainWindow):
     def __init__(self):
         super(QaiseoApp, self).__init__()
